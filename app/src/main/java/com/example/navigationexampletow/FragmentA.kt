@@ -37,7 +37,5 @@ class FragmentA : Fragment() {
             val action = FragmentADirections.actionAToB()
             findNavController().navigate(action)
         })
-
-
     }
 }
